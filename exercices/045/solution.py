@@ -4,6 +4,5 @@ Spyder Editor
 
 This is a temporary script file.
 """
-word = "\"Hello world\""
-list = [word, 42]
-print(list)
+def sqrt(num) :
+    return(num**0.5)
