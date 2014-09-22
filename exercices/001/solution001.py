@@ -5,4 +5,5 @@ Spyder Editor
 This is a temporary script file.
 """
 
-print("abcdefghijklnmopqrstuvwxyz")
+line = "abcdefghijklnmopqrstuvwxyz"
+print(line)
