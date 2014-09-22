@@ -5,11 +5,10 @@ Spyder Editor
 This is a temporary script file.
 """
 
+line = "Hello World"
 for i in range(0,100):
-    line = "Hello World"
     print(line)
 
-
 # or simply 
-#print("Hello World\n"*100)
-# it prints and it ends to new line
+#print("Hello World\n"*2)
+# it prints 100 times and goes to new line

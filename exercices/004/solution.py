@@ -5,4 +5,5 @@ Spyder Editor
 This is a temporary script file.
 """
 
-print("Hello Word")
+import sys
+print(sys.argv[0])
