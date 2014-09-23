@@ -4,6 +4,5 @@ Spyder Editor
 
 This is a temporary script file.
 """
-
 line = "abcdefghijklnmopqrstuvwxyz"
 print(line)

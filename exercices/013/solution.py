@@ -4,5 +4,9 @@ Spyder Editor
 
 This is a temporary script file.
 """
+
 import sys
-print(sys.argv[1])
+if len(sys.argv) > 1:
+    print(sys.argv[1])
+else:
+    print('usage: python3 %s PARAM' % sys.argv[0])

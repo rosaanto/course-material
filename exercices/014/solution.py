@@ -4,6 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-word = "\"Hello world\""
-list = [word, 42]
-print(list)
+a = 245850922 / 78256779
+b = (1 + 5**0.5) / 2
+print(a)
+print(b)
