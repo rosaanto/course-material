@@ -4,6 +4,6 @@ Spyder Editor
 
 This is a temporary script file.
 """
-line = "AbcdEfghIjklnmOpqrstUvwxyz"
+line = "AbcdEfghIjklmnOpqrstUvwxyz"
 enil = line[::-1]
 print(enil)
