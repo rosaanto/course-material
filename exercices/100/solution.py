@@ -12,14 +12,6 @@ station = {
     'name': 'CHAMPEAUX (BAGNOLET)',
     'longitude': 2.416170724425901
     }
-#print(station.keys())
-#print(station.item())
-#for key in station.keys():
-#   print "key: %s , value: %s" % (key, station[key])
-#print(station)
-#for i in station:
-#    print(i)
-#print(len(station))
-#print(station[key])
-for key, value in station.iteritems():
-    print(key, value)
+
+for key in station.keys():
+    print(key, station[key])
