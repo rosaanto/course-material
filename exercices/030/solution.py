@@ -5,7 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
 
-x = range(0, 101, 1)
+x = range(1, 101, 1)
 for i in x:
     if i % 2 == 0:
         print(i)
