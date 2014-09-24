@@ -46,26 +46,15 @@ velib = [{'address': 'RUE DES CHAMPEAUX (PRES DE LA '
 
 
 def check_my_city(city_name):
-    for i in velib:
-        if (i['city'] == city_name):
-            message = [{'station_nb': i['number'],
-                        'zip_code': i['zip'],
-                        'city': i['city']}]
-    if len(message) == 0:
+    count_my_city = 0
+    my_city_list = []
+    for i in range(0, len(velib)):
+        if velib[i]['city'] == city_name:
+            count_my_city = count_my_city + 1
+            my_city_list.append(velib[i]['zip'])
+            message = {"station_nb": count_my_city,
+                       "zip_code": my_city_list,
+                       "city": city_name}
+    if count_my_city == 0:
         message = "Sorry! No station for your city has been found!"
     return(message)
-
-city_name = 'PARIS'
-print(check_my_city(city_name))
-
-#def check_my_city(city_name):
-#    for i in velib:
-#        print(i)
-#        if i['city'] == city_name:
-#            zz = [{'station_nb': i['number'],
-#                   'zip_code': i['zip'],
-#                   'city': i['city']}]
-#        else:
-#            return("Sorry! No station for your city has been found!")
-
-#print(check_my_city('PARIS'))
