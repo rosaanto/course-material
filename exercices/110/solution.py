@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 
 import sys
-oper = ['+', '-', '*', '/']
+oper = ['+', '-', '*', '/', '%']
 if (len(sys.argv) != 4):
     print('usage: python3 ./%s a_number (an_operator +-\*) a_number'
           % sys.argv[0])
@@ -22,3 +22,5 @@ elif sys.argv[2] == '*':
     print(int(sys.argv[1])*int(sys.argv[3]))
 elif sys.argv[2] == '/':
     print(int(sys.argv[1])/int(sys.argv[3]))
+elif sys.argv[2] == '%':
+    print(int(sys.argv[1]) % int(sys.argv[3]))
