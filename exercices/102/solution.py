@@ -52,7 +52,7 @@ def check_my_city(city_name):
         if velib[i]['city'] == city_name:
             count_my_city = count_my_city + 1
             my_city_list.append(velib[i]['zip'])
-            message = {"station_nb": count_my_city,
+            message = {"stations_nb": count_my_city,
                        "zip_code": my_city_list,
                        "city": city_name}
     if count_my_city == 0:
