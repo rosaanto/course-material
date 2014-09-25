@@ -13,4 +13,4 @@ for i in range(1, 11):
     f0 = f1
     f1 = f2
     fibo_list.append(str(f2))
-print(", ".join(fibo_list))
+print(", ".join(fibo_list)+'.')
