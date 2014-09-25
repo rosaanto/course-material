@@ -15,7 +15,7 @@ def is_prime(num):
                 return(False)
         return(True)
 prime_list = []
-for i in range(1, 10):
+for i in range(10000, 10050):
     if is_prime(i):
         prime_list.append(str(i))
 print(", ".join(prime_list))
