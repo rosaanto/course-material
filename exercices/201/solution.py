@@ -7,9 +7,11 @@ This is a temporary script file.
 
 
 def is_alpha(alpha):
-    alphabeth = 'abcdefghijklmnopqrstuvwxyz'
+    alphabeth = 'aàbcçdeéèfghijklmnopqrstuvwxyz'
     ALPHABETH = alphabeth.upper()
+    sum_alpha = 0
     for i in alphabeth+ALPHABETH:
-        if alpha.count(i) != 0:
-            return True
+        sum_alpha = sum_alpha + alpha.count(i)
+    if sum_alpha == len(alpha):
+        return True
     return False

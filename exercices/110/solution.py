@@ -8,7 +8,7 @@ This is a temporary script file.
 import sys
 oper = ['+', '-', '*', '/', '%', '^']
 if (len(sys.argv) != 4):
-    print('usage: python3 solution.py a_number'
+    print('usage: python3 solution.py a_number '
           '(an_operator +-*/%^) a_number')
 elif((sys.argv[2] not in oper) or (sys.argv[1].count('.')
      or sys.argv[3].count('.')) > 0

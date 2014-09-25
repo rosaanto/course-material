@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 
 
-def is_multiple_of(a, b):
+def is_multiple(a, b):
     if a % b == 0:
         return(True)
     return(False)

@@ -7,6 +7,6 @@ This is a temporary script file.
 
 
 def starts_with(A, B):
-    if B[0] == A:
+    if A[0] == B:
         return(True)
     return(False)
