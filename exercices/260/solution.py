@@ -35,4 +35,4 @@ def np_euclidean(a, b):
 # b = [5,3,0,7,8,6,9,4,5]
 # print(euclidean(a, b))
 # print(opt_euclidean(a, b))
-# print(np_opt_euclidean(a, b))
+# print(np_euclidean(a, b))
