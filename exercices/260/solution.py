@@ -23,7 +23,7 @@ def opt_euclidean(a, b):
     return(d)
 
 
-def np_opt_euclidean(a, b):
+def np_euclidean(a, b):
     import numpy as np
     import math
     d = math.sqrt(sum(np.power((np.array(b)-np.array(a)), 2)))
